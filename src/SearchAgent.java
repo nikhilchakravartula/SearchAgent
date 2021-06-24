@@ -71,7 +71,7 @@ public class SearchAgent {
   public void readInput() {
     
     try (BufferedReader br = new BufferedReader(new InputStreamReader(
-        new FileInputStream("./testcases/input/input2.txt")))) {
+        new FileInputStream("./input.txt")))) {
       //Read algorithm type
       algorithm = br.readLine();
       
